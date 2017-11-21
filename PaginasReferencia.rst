@@ -27,4 +27,6 @@ Paginas API Twitter
 
 [4] https://api.twitter.com/1.1/search/tweets.json?q=%20&geocode=37.781157%2C-122.398720%2C1mi
 
-[5]https://marcobonzanini.com/2015/06/16/mining-twitter-data-with-python-and-js-part-7-geolocation-and-interactive-maps/
+[5] https://marcobonzanini.com/2015/06/16/mining-twitter-data-with-python-and-js-part-7-geolocation-and-interactive-maps/
+
+[6] https://github.com/googlemaps/google-maps-services-python
