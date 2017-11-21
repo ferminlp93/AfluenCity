@@ -7,5 +7,10 @@ Esta aplicación intenta gestionar el turismo de una forma más inteligente a la
 * Cultural
 * Actividades de Riesgo
 
+
+
+
+
+
 Además gracias a esta aplicación se puede realizar un servicio de previsión de gente en distintos lados de la ciudad con cierta probabilidad. Teniendo esto en mano se les puede ofertar un servicio predictivo a las empresas turísticas de la zona las cuales podrán usar estas previsiones para mejorar su oferta o incluso su stock en ciertos días/horas. 
 La previsión a empresas se cobraría, pero la parte de oferta al cliente particular sería gratis para así tener una mayor afluencia a la web y conseguir mejores predicciones.
