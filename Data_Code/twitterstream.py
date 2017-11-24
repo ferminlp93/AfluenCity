@@ -33,4 +33,6 @@ if __name__ == '__main__':
     stream = Stream(auth, l)
 
     #Filtramos la zona levante, joder lo que ha costado esta puta linea.
-stream.filter(locations=[-1.06,38.3,3.48,40.56])
+#stream.filter(locations=[-1.06,38.3,3.48,40.56])
+#solo torrevieja y alrededores
+stream.filter(locations=[-1.011319,37.869698,-0.471835,38.213104])
