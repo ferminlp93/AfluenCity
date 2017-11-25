@@ -4,6 +4,8 @@ from tweepy import Stream
 import json
 import numpy as np
 import re
+from random import randint
+
 
 
 ##Mis claves de twitter
@@ -35,7 +37,7 @@ class StdOutListener(StreamListener):
         #tweet=np.array([created_at,text,place, coordinates,hashtag])
         #chapu reguapa
         if len(text.split('\n')) == 1:
-            varcsv=str(created_at+';'+text.strip()+';'+''.join(hashtag)+';'+place+';'+str(latitud)+';'+str(longitud)).strip()+'\n'
+            varcsv=str(created_at+';'+text.strip()+';'+''.join(hashtag)+';'+place+';'+str(latitud)+';'+str(longitud)+';'+str(randint(0, 9))).strip()+'\n'
         
             print (varcsv)
         #sacar a fichero los datos para procesarlos
