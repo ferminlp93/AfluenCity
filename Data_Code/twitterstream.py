@@ -5,6 +5,11 @@ import json
 import numpy as np
 import re
 from random import randint
+import indicoio
+indicoio.config.api_key = '51666b80824045470ad439add0510249'
+
+# single example
+
 
 
 
@@ -37,12 +42,16 @@ class StdOutListener(StreamListener):
         #tweet=np.array([created_at,text,place, coordinates,hashtag])
         #chapu reguapa
         if len(text.split('\n')) == 1:
-            varcsv=str(created_at+';'+text.strip()+';'+''.join(hashtag)+';'+place+';'+str(latitud)+';'+str(longitud)+';'+str(randint(0, 9))).strip()+'\n'
+            if re.match(r'http*',text):
+                sent=0
+            else:
+                sent=indicoio.sentiment(text.strip())
+            varcsv=str(created_at+';'+text.strip()+';'+''.join(hashtag)+';'+place+';'+str(latitud)+';'+str(longitud)+';'+str(sent)).strip()+'\n'
         
             print (varcsv)
         #sacar a fichero los datos para procesarlos
         #np.savetxt('test.out', x, delimiter=',')
-            with open("output.txt", "a") as text_file:
+            with open("output2.txt", "a") as text_file:
                 
                 text_file.write(varcsv)
             return True
