@@ -1,4 +1,4 @@
-# SmarTour
+# AfluenCity
 ## Hackaton 2017,aplicación estadística para el sector turístico.
 
 Esta aplicación intenta gestionar el turismo de una forma más inteligente a la tradicional. Para esto se hace una búsqueda en tiempo real de twitter para ver por dónde se está moviendo la gente y que opinan de la zona que están visitando. Gracias a esto podemos conseguir una experiencia personalizada en la cuál te podemos aconsejar zonas que puedes visitar y con que probabilidad te lo pasarás bien.  Podrás distinguir entre distintos tipos de turismo según tus preferencias:
