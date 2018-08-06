@@ -6,7 +6,7 @@ import numpy as np
 import re
 from random import randint
 import indicoio
-indicoio.config.api_key = '51666b80824045470ad439add0510249'
+indicoio.config.api_key = ''
 
 # single example
 
@@ -14,11 +14,11 @@ indicoio.config.api_key = '51666b80824045470ad439add0510249'
 
 
 ##Mis claves de twitter
-consumer_key = "Dbk9K4825bR3BgaHjhuIMDdKr"
-consumer_secret = "WkxFXFiRh8bdacO4fReF83yJV06aD3BEUWsMPQlzLLZ1fllPtm"
+consumer_key = ""
+consumer_secret = ""
  
-access_token  = "840639055-KWRYNG45l1jgSJjlwngg10ePVHwxwmr5zpMwYqjc"
-access_token_secret  = '36i928WMor6fYbbtUnr6fyxB1zz0DGlw0ankonrMAPeaD'
+access_token  = ""
+access_token_secret  = ''
 
 #Streaming de twitter en tiempo real
 class StdOutListener(StreamListener):
